@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		37C36F651E37324100D67189 /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37C36F641E37324100D67189 /* CustomTextField.swift */; };
 		44D5D3CE1E36D37F00D01E40 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44D5D3CD1E36D37F00D01E40 /* AppDelegate.swift */; };
 		44D5D3D01E36D37F00D01E40 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44D5D3CF1E36D37F00D01E40 /* ViewController.swift */; };
 		44D5D3D21E36D37F00D01E40 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 44D5D3D11E36D37F00D01E40 /* Assets.xcassets */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		37C36F641E37324100D67189 /* CustomTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
 		44D5D3CA1E36D37F00D01E40 /* CustomTextFieldCell.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CustomTextFieldCell.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		44D5D3CD1E36D37F00D01E40 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		44D5D3CF1E36D37F00D01E40 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -63,6 +65,7 @@
 				44D5D3D31E36D37F00D01E40 /* Main.storyboard */,
 				44D5D3D61E36D37F00D01E40 /* Info.plist */,
 				44D5D3DC1E36D3DC00D01E40 /* CustomTextCell.swift */,
+				37C36F641E37324100D67189 /* CustomTextField.swift */,
 			);
 			path = CustomTextFieldCell;
 			sourceTree = "<group>";
@@ -142,6 +145,7 @@
 				44D5D3DD1E36D3DC00D01E40 /* CustomTextCell.swift in Sources */,
 				44D5D3CE1E36D37F00D01E40 /* AppDelegate.swift in Sources */,
 				44D5D3E01E36D51800D01E40 /* LoremSwiftum.swift in Sources */,
+				37C36F651E37324100D67189 /* CustomTextField.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -294,6 +298,7 @@
 				44D5D3DB1E36D37F00D01E40 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
